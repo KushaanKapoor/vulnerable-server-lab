@@ -294,7 +294,7 @@ def login():
 
 LOGIN_PAGE = """
 <div class="container">
-  <h1>🔐 Employee Login</h1>
+  <h1>Employee Login</h1>
   <div class="card">
     {% if error %}
       <div class="flash">{{ error }}</div>
@@ -340,7 +340,7 @@ def netdiag():
 
 NETDIAG_PAGE = """
 <div class="container">
-  <h1>🌐 Network Diagnostics</h1>
+  <h1>Network Diagnostics</h1>
   <div class="card">
     <p style="font-size:0.8rem; color:#6b7280; margin-bottom:1rem;">
       Ping a host to check network connectivity.
@@ -391,7 +391,7 @@ def uploaded_file(filename):
 
 UPLOAD_PAGE = """
 <div class="container">
-  <h1>📁 Employee Document Upload</h1>
+  <h1>Employee Document Upload</h1>
   <div class="card">
     {% if message %}
       <div class="flash {{ 'success' if msg_type == 'success' else '' }}">{{ message }}</div>
@@ -436,7 +436,7 @@ def docs():
 
 DOCS_PAGE = """
 <div class="container">
-  <h1>📄 Confidential Documents</h1>
+  <h1>Confidential Documents</h1>
   <div class="card">
     <p style="font-size:0.8rem; color:#6b7280; margin-bottom:1rem;">
       Logged in as: <strong style="color:#1d4ed8;">{{ session['user'] }}</strong>
