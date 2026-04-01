@@ -236,19 +236,19 @@ def index():
       <div class="feature-grid">
         <div class="feature-card">
           <a href="/login">
-            <h3>🔐 Login</h3>
+            <h3>Login</h3>
             <p>Employee authentication portal</p>
           </a>
         </div>
         <div class="feature-card">
           <a href="/netdiag">
-            <h3>🌐 Net Diagnostics</h3>
+            <h3>Net Diagnostics</h3>
             <p>Network connectivity tools</p>
           </a>
         </div>
         <div class="feature-card">
           <a href="/upload">
-            <h3>📁 File Upload</h3>
+            <h3>File Upload</h3>
             <p>Upload employee documents</p>
           </a>
         </div>
